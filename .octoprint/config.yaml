@@ -106,3 +106,4 @@ controls:
                             max: 255
     - name: Disable Fan
         command: M107
+        
