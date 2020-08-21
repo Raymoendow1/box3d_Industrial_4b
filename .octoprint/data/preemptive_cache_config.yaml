@@ -1,11 +1,11 @@
 /:
-- _count: 45
-  _timestamp: 1598007749.633564
+- _count: 43
+  _timestamp: 1597609909.260847
   base_url: http://4b.local/
   path: /
   query_string: l10n=en
-- _count: 7
-  _timestamp: 1598007741.651438
+- _count: 6
+  _timestamp: 1597347080.379303
   base_url: http://192.168.137.175/
   path: /
   query_string: l10n=en
