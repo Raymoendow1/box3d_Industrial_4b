@@ -190,6 +190,7 @@ error: [Errno 98] Address already in use
 2020-08-21 12:02:30,673 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.1
 2020-08-21 12:02:30,749 - octoprint.events - INFO - Executing a system command
 2020-08-21 12:02:30,783 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.1
+<<<<<<< HEAD
 2020-08-21 12:06:47,903 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.1
 2020-08-21 12:06:47,905 - octoprint.events - INFO - Executing a system command
 2020-08-21 12:06:48,071 - octoprint.server - INFO - Shutting down...
@@ -371,3 +372,5 @@ error: [Errno 98] Address already in use
 2020-08-21 12:08:36,778 - octoprint.events - INFO - Executing a system command
 2020-08-21 12:08:36,805 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.1
 2020-08-21 12:23:25,817 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+=======
+>>>>>>> parent of cbefcf7... This didn't work, adjusted config-file again.

@@ -2,20 +2,6 @@ accessControl:
   enabled: false
 api:
   key: 2F8ECE9B25C84D4E8FA63456531DFBD1
-children:
-- command: M106 S%(speed)s
-  input:
-  - default: 255
-    name: Speed (0-255)
-    parameter: speed
-    slider:
-      max: 255
-      min: 0
-  name: Enable Fan
-- command: M107
-  name: Disable Fan
-controls:
-- name: Fan
 events:
   enabled: true
   subscriptions:
@@ -44,7 +30,6 @@ events:
       2
     event: Disconnected
     type: system
-layout: horizontal
 plugins:
   announcements:
     _config_version: 1
@@ -56,7 +41,7 @@ plugins:
       _octopi:
         read_until: 1573722900
       _plugins:
-        read_until: 1597640400
+        read_until: 1596862800
       _releases:
         read_until: 1596714600
   cura:
@@ -83,6 +68,7 @@ server:
     systemRestartCommand: sudo shutdown -r now
     systemShutdownCommand: sudo shutdown -h now
   firstRun: false
+  incompleteStartup: true
   onlineCheck:
     enabled: true
   pluginBlacklist:
@@ -106,6 +92,7 @@ webcam:
   snapshot: http://127.0.0.1:8080/?action=snapshot
   stream: /webcam/?action=stream
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 controls:
@@ -124,3 +111,21 @@ controls:
   - name: Disable Fan
     command: M107
 >>>>>>> 3d34ecfdd43d7d25357b3c8b97f2d09e0fa5895b
+=======
+
+controls:
+- name: Fan
+layout: horizontal
+children:
+- name: Enable Fan
+  command: M106 S%(speed)s
+  input:
+  - name: Speed (0-255)
+    parameter: speed
+    default: 255
+    slider:
+      min: 0
+      max: 255
+- name: Disable Fan
+  command: M107
+>>>>>>> parent of cbefcf7... This didn't work, adjusted config-file again.
