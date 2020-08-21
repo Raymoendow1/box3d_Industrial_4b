@@ -68,6 +68,7 @@ server:
     systemRestartCommand: sudo shutdown -r now
     systemShutdownCommand: sudo shutdown -h now
   firstRun: false
+  incompleteStartup: true
   onlineCheck:
     enabled: true
   pluginBlacklist:

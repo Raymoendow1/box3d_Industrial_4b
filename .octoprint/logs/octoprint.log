@@ -43,3 +43,150 @@
 2020-08-21 11:15:39,268 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.26s
 2020-08-21 11:15:39,524 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.19s
 2020-08-21 11:15:39,620 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2020-08-21 11:30:37,632 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-08-21 11:43:49,055 - octoprint.startup - INFO - ******************************************************************************
+2020-08-21 11:43:49,056 - octoprint.startup - INFO - Starting OctoPrint 1.3.12
+2020-08-21 11:43:49,057 - octoprint.startup - INFO - ******************************************************************************
+2020-08-21 11:43:50,337 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-08-21 11:43:50,719 - octoprint.startup - INFO - Blacklist processing done, adding 1 blacklisted plugin versions: roomtemp (any)
+2020-08-21 11:43:50,780 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-08-21 11:43:51,451 - octoprint.plugin.core - INFO - Found 15 plugin(s) providing 15 mixin implementations, 23 hook handlers
+2020-08-21 11:43:51,568 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2020-08-21 11:43:51,582 - octoprint.cli.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/pi/oprint/bin/octoprint", line 8, in <module>
+    sys.exit(main())
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/__init__.py", line 609, in main
+    octo(args=args, prog_name="octoprint", auto_envvar_prefix="OCTOPRINT")
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/decorators.py", line 17, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/cli/server.py", line 206, in serve_command
+    ignore_blacklist)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/cli/server.py", line 118, in run_server
+    octoprint_server.run()
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 281, in run
+    self._start_intermediary_server()
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 1751, in _start_intermediary_server
+    self._intermediary_server.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+2020-08-21 11:44:25,953 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.1
+2020-08-21 11:44:26,032 - octoprint.events - INFO - Executing a system command
+2020-08-21 11:44:26,082 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.1
+2020-08-21 11:44:35,856 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.1
+2020-08-21 11:44:35,861 - octoprint.events - INFO - Executing a system command
+2020-08-21 11:45:37,634 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-08-21 11:46:09,987 - octoprint.startup - INFO - ******************************************************************************
+2020-08-21 11:46:09,989 - octoprint.startup - INFO - Starting OctoPrint 1.3.12
+2020-08-21 11:46:09,989 - octoprint.startup - INFO - Starting in SAFE MODE. Third party plugins will be disabled!
+2020-08-21 11:46:09,990 - octoprint.startup - INFO - Reason for safe mode: problem during last startup
+2020-08-21 11:46:09,991 - octoprint.startup - INFO - ******************************************************************************
+2020-08-21 11:46:10,271 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-08-21 11:46:10,273 - octoprint.startup - INFO - Blacklist processing done, adding 1 blacklisted plugin versions: roomtemp (any)
+2020-08-21 11:46:10,301 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-08-21 11:46:10,965 - octoprint.plugin.core - INFO - Found 15 plugin(s) providing 15 mixin implementations, 23 hook handlers
+2020-08-21 11:46:11,013 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2020-08-21 11:46:11,025 - octoprint.cli.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/pi/oprint/bin/octoprint", line 8, in <module>
+    sys.exit(main())
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/__init__.py", line 609, in main
+    octo(args=args, prog_name="octoprint", auto_envvar_prefix="OCTOPRINT")
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/decorators.py", line 17, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/cli/server.py", line 206, in serve_command
+    ignore_blacklist)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/cli/server.py", line 118, in run_server
+    octoprint_server.run()
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 281, in run
+    self._start_intermediary_server()
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 1751, in _start_intermediary_server
+    self._intermediary_server.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+2020-08-21 11:46:15,729 - octoprint.startup - INFO - ******************************************************************************
+2020-08-21 11:46:15,730 - octoprint.startup - INFO - Starting OctoPrint 1.3.12
+2020-08-21 11:46:15,731 - octoprint.startup - INFO - Starting in SAFE MODE. Third party plugins will be disabled!
+2020-08-21 11:46:15,731 - octoprint.startup - INFO - Reason for safe mode: problem during last startup
+2020-08-21 11:46:15,732 - octoprint.startup - INFO - ******************************************************************************
+2020-08-21 11:46:16,012 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-08-21 11:46:16,015 - octoprint.startup - INFO - Blacklist processing done, adding 1 blacklisted plugin versions: roomtemp (any)
+2020-08-21 11:46:16,043 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-08-21 11:46:16,705 - octoprint.plugin.core - INFO - Found 15 plugin(s) providing 15 mixin implementations, 23 hook handlers
+2020-08-21 11:46:16,753 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2020-08-21 11:46:16,765 - octoprint.cli.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/pi/oprint/bin/octoprint", line 8, in <module>
+    sys.exit(main())
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/__init__.py", line 609, in main
+    octo(args=args, prog_name="octoprint", auto_envvar_prefix="OCTOPRINT")
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/click/decorators.py", line 17, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/cli/server.py", line 206, in serve_command
+    ignore_blacklist)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/cli/server.py", line 118, in run_server
+    octoprint_server.run()
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 281, in run
+    self._start_intermediary_server()
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 1751, in _start_intermediary_server
+    self._intermediary_server.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+2020-08-21 12:00:37,636 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-08-21 12:00:37,723 - octoprint.util.connectivity_checker - INFO - Connectivity changed from online to offline
+2020-08-21 12:02:22,827 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.1
+2020-08-21 12:02:22,905 - octoprint.events - INFO - Executing a system command
+2020-08-21 12:02:22,938 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.1
+2020-08-21 12:02:24,206 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-08-21 12:02:24,231 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2020-08-21 12:02:24,641 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2020-08-21 12:02:29,703 - octoprint.events - INFO - Executing a system command
+2020-08-21 12:02:29,705 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.1
+2020-08-21 12:02:30,673 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.1
+2020-08-21 12:02:30,749 - octoprint.events - INFO - Executing a system command
+2020-08-21 12:02:30,783 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.1
