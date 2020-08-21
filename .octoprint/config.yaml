@@ -91,27 +91,6 @@ webcam:
   ffmpeg: /usr/bin/ffmpeg
   snapshot: http://127.0.0.1:8080/?action=snapshot
   stream: /webcam/?action=stream
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-controls:
-  - name: Fan
-    layout: horizontal
-    children:
-    - name: Enable Fan
-    command: M106 S%(speed)s
-    input:
-    - name: Speed (0-255)
-      parameter: speed
-      default: 255
-      slider:
-        min: 0
-        max: 255
-  - name: Disable Fan
-    command: M107
->>>>>>> 3d34ecfdd43d7d25357b3c8b97f2d09e0fa5895b
-=======
 
 controls:
 - name: Fan
@@ -128,4 +107,4 @@ children:
       max: 255
 - name: Disable Fan
   command: M107
->>>>>>> parent of cbefcf7... This didn't work, adjusted config-file again.
+
