@@ -2,21 +2,6 @@ accessControl:
   enabled: false
 api:
   key: 2F8ECE9B25C84D4E8FA63456531DFBD1
-controls:
-  - name: Fan
-    layout: horizontal
-    children:
-    - name: Enable Fan
-      command: M106 S%(speed)s
-      input:
-      - name: Speed (0-255) 
-        parameter: speed
-        default: 255
-        slider:
-          max: 255
-          min: 0
-    - name: Disable Fan
-      command: M107
 events:
   enabled: true
   subscriptions:
@@ -105,3 +90,23 @@ webcam:
   ffmpeg: /usr/bin/ffmpeg
   snapshot: http://127.0.0.1:8080/?action=snapshot
   stream: /webcam/?action=stream
+<<<<<<< HEAD
+=======
+
+controls:
+    - name: Fan
+        layout: horizontal
+        children:
+            - name: Enable Fan
+                command: M106 S%(speed)s
+                input:
+                    - name: Speed (0-255)
+                        parameter: speed
+                        default: 255
+                        slider:
+                            min: 0
+                            max: 255
+    - name: Disable Fan
+        command: M107
+        
+>>>>>>> 3c06b1a139c14b54a52fe66420add00c2eb16bc1
