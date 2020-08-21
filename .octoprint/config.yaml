@@ -92,17 +92,17 @@ webcam:
   stream: /webcam/?action=stream
 
 controls:
-  - name: Fan
-    layout: horizontal
-    children:
-    - name: Enable Fan
-    command: M106 S%(speed)s
-    input:
-    - name: Speed (0-255)
-      parameter: speed
-      default: 255
-      slider:
-        min: 0
-        max: 255
-  - name: Disable Fan
-    command: M107
+    - name: Fan
+        layout: horizontal
+        children:
+            - name: Enable Fan
+                command: M106 S%(speed)s
+                input:
+                    - name: Speed (0-255)
+                        parameter: speed
+                        default: 255
+                        slider:
+                            min: 0
+                            max: 255
+    - name: Disable Fan
+        command: M107
