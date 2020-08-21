@@ -2,6 +2,20 @@ accessControl:
   enabled: false
 api:
   key: 2F8ECE9B25C84D4E8FA63456531DFBD1
+children:
+- command: M106 S%(speed)s
+  input:
+  - default: 255
+    name: Speed (0-255)
+    parameter: speed
+    slider:
+      max: 255
+      min: 0
+  name: Enable Fan
+- command: M107
+  name: Disable Fan
+controls:
+- name: Fan
 events:
   enabled: true
   subscriptions:
@@ -30,6 +44,7 @@ events:
       2
     event: Disconnected
     type: system
+layout: horizontal
 plugins:
   announcements:
     _config_version: 1
