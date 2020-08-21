@@ -1,21 +1,11 @@
 /:
-- _count: 43
-  _timestamp: 1597609909.260847
-  base_url: http://4b.local/
-  path: /
-  query_string: l10n=en
-- _count: 6
-  _timestamp: 1597347080.379303
+- _count: 1
+  _timestamp: 1598010810.675692
   base_url: http://192.168.137.175/
   path: /
   query_string: l10n=en
-- _count: 7
-  _timestamp: 1597339262.578044
-  base_url: http://octopi.local/
-  path: /
-  query_string: l10n=en
-- _count: 1
-  _timestamp: 1597330068.717737
-  base_url: https://4b.local/
+- _count: 43
+  _timestamp: 1597609909.260847
+  base_url: http://4b.local/
   path: /
   query_string: l10n=en
