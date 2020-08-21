@@ -1,0 +1,385 @@
+2020-05-25 10:30:55,672 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-05-25 10:30:55,669 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 10:30:55,697 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2020-05-25 10:30:55,698 - octoprint.server - INFO - OctoPrint 1.3.12
+2020-05-25 10:30:55,704 - octoprint.plugin.core - INFO - 15 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  Force Login (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Pi Support Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Software Update (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2020-05-25 10:30:55,742 - octoprint.environment - INFO - Detected environment is Python 2.7.16 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1500.0
+|    ram: 1979641856
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 4 Model B Rev 1.1
+|      octopi_version: 0.17.0
+|  python:
+|    pip: 19.3.1
+|    version: 2.7.16
+|    virtualenv: /home/pi/oprint
+2020-05-25 10:30:55,743 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2020-05-25 10:30:55,950 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 0.23s
+2020-05-25 10:30:56,004 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2020-05-25 10:30:56,166 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2020-05-25 10:30:56,506 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.3s
+2020-05-25 10:30:56,785 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2020-05-25 10:30:57,217 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.18s
+2020-05-25 10:30:57,524 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.23s
+2020-05-25 10:30:57,871 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.29s
+2020-05-25 10:30:58,533 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.1
+2020-05-25 10:30:58,568 - octoprint.events - INFO - Executing a system command
+2020-05-25 10:30:58,600 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.1
+2020-05-25 10:32:29,639 - octoprint.server.util.flask.PreemptiveCache - INFO - Adding entry for / and {'query_string': 'l10n=en', 'path': u'/', '_count': 1, '_timestamp': 1590399149.639515, 'base_url': u'http://192.168.137.175/'}
+2020-05-25 10:32:33,589 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.171
+2020-05-25 10:32:33,624 - octoprint.events - INFO - Executing a system command
+2020-05-25 10:32:33,654 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.171
+2020-05-25 10:41:21,790 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.171
+2020-05-25 10:41:21,798 - octoprint.events - INFO - Executing a system command
+2020-05-25 10:44:38,877 - octoprint.filemanager.analysis - INFO - Starting analysis of local:CE3_Filamentbuffer_V2.gcode
+2020-05-25 10:44:38,879 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /home/pi/oprint/bin/python2 -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 /home/pi/.octoprint/uploads/CE3_Filamentbuffer_V2.gcode
+2020-05-25 10:44:38,905 - octoprint.events - INFO - Executing a system command
+2020-05-25 10:44:41,853 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: CE3_Filamentbuffer_V2.gcode, owner: dummy, user: dummy
+2020-05-25 10:44:41,859 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2020-05-25 10:44:41,862 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CE3_Filamentbuffer_V2.gcode, owner: dummy, user: dummy
+2020-05-25 10:44:41,867 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-25 10:44:41,867 - octoprint.events - INFO - Executing a system command
+2020-05-25 10:44:41,892 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2020-05-25 10:45:55,686 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 10:56:23,979 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.171
+2020-05-25 10:56:24,111 - octoprint.events - INFO - Executing a system command
+2020-05-25 10:56:24,140 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.171
+2020-05-25 10:56:27,918 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.171
+2020-05-25 10:56:27,919 - octoprint.events - INFO - Executing a system command
+2020-05-25 11:00:55,687 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 11:09:21,423 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.171
+2020-05-25 11:09:21,544 - octoprint.events - INFO - Executing a system command
+2020-05-25 11:09:21,577 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.171
+2020-05-25 11:15:55,689 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 11:21:21,845 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.171
+2020-05-25 11:21:21,850 - octoprint.events - INFO - Executing a system command
+2020-05-25 11:30:55,691 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 11:45:55,692 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 11:57:45,293 - octoprint.util.comm - INFO - Finished in 4383.434 s.
+2020-05-25 11:57:45,295 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2020-05-25 11:57:45,298 - octoprint.filemanager.analysis - INFO - Starting analysis of local:CE3_Filamentbuffer_V2.gcode
+2020-05-25 11:57:45,305 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /home/pi/oprint/bin/python2 -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 /home/pi/.octoprint/uploads/CE3_Filamentbuffer_V2.gcode
+2020-05-25 11:57:45,338 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: CE3_Filamentbuffer_V2.gcode, owner: dummy
+2020-05-25 11:57:45,356 - octoprint.events - INFO - Executing a system command
+2020-05-25 11:57:45,394 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2020-05-25 11:57:49,049 - octoprint.filemanager.analysis - INFO - Analysis of entry local:CE3_Filamentbuffer_V2.gcode finished, needed 3.75s
+2020-05-25 11:59:00,429 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2020-05-25 11:59:00,436 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CE3_Filamentbuffer_V2.gcode, owner: dummy, user: dummy
+2020-05-25 11:59:00,448 - octoprint.events - INFO - Executing a system command
+2020-05-25 11:59:00,449 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-25 11:59:00,493 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2020-05-25 11:59:00,522 - octoprint.events - WARNING - Command failed with return code 143, enable debug logging on target 'octoprint.events' for details
+2020-05-25 12:00:55,694 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 12:15:55,696 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 12:30:55,698 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 12:45:55,700 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 13:00:55,701 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 13:09:52,771 - octoprint.util.comm - INFO - Finished in 4252.345 s.
+2020-05-25 13:09:52,773 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2020-05-25 13:09:52,782 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: CE3_Filamentbuffer_V2.gcode, owner: dummy
+2020-05-25 13:09:52,786 - octoprint.events - INFO - Executing a system command
+2020-05-25 13:09:52,841 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2020-05-25 13:15:55,702 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 13:30:55,705 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 13:45:55,707 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 13:47:47,567 - octoprint.printer.standard.job - INFO - Print job deselected - user: n/a
+2020-05-25 13:47:51,760 - octoprint.filemanager.analysis - INFO - Starting analysis of local:CE3_Filamentbuffer_v3.gcode
+2020-05-25 13:47:51,763 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /home/pi/oprint/bin/python2 -m octoprint analysis gcode --speed-x=6000 --speed-y=6000 --max-t=10 --throttle=0.0 --throttle-lines=100 /home/pi/.octoprint/uploads/CE3_Filamentbuffer_v3.gcode
+2020-05-25 13:47:51,768 - octoprint.events - INFO - Executing a system command
+2020-05-25 13:47:51,808 - octoprint.events - WARNING - Command failed with return code 143, enable debug logging on target 'octoprint.events' for details
+2020-05-25 13:47:59,525 - octoprint.filemanager.analysis - INFO - Analysis of entry local:CE3_Filamentbuffer_v3.gcode finished, needed 7.77s
+2020-05-25 13:48:16,617 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: CE3_Filamentbuffer_v3.gcode, owner: dummy, user: dummy
+2020-05-25 13:48:16,632 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2020-05-25 13:48:16,639 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CE3_Filamentbuffer_v3.gcode, owner: dummy, user: dummy
+2020-05-25 13:48:16,650 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-25 13:48:16,648 - octoprint.events - INFO - Executing a system command
+2020-05-25 13:48:16,696 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2020-05-25 14:00:55,709 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 14:15:55,711 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 14:30:55,712 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 14:45:55,714 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 15:00:55,716 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 15:15:55,717 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 15:30:55,719 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 15:45:55,721 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 16:00:55,723 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 16:15:55,725 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 16:30:55,727 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 16:45:55,729 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 17:00:55,730 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 17:15:55,732 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 17:30:55,733 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 17:45:55,735 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 18:00:55,738 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 18:15:55,740 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 18:30:55,741 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 18:43:06,186 - octoprint.util.comm - INFO - Finished in 17689.558 s.
+2020-05-25 18:43:06,188 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2020-05-25 18:43:06,196 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: CE3_Filamentbuffer_v3.gcode, owner: dummy
+2020-05-25 18:43:06,200 - octoprint.events - INFO - Executing a system command
+2020-05-25 18:43:06,250 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2020-05-25 18:44:43,046 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.171
+2020-05-25 18:44:43,134 - octoprint.events - INFO - Executing a system command
+2020-05-25 18:44:43,163 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.171
+2020-05-25 18:44:43,163 - octoprint.events - WARNING - Command failed with return code 143, enable debug logging on target 'octoprint.events' for details
+2020-05-25 18:44:44,053 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 0.14s
+2020-05-25 18:44:44,275 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 0.13s
+2020-05-25 18:44:44,850 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 0.14s
+2020-05-25 18:44:45,012 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.13s
+2020-05-25 18:44:45,208 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 0.15s
+2020-05-25 18:44:45,423 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2020-05-25 18:45:55,743 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 18:52:17,748 - octoprint.server.api.system - INFO - Performing command for core:shutdown: sudo shutdown -h now
+2020-05-25 18:52:18,029 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.171
+2020-05-25 18:52:18,037 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.1
+2020-05-25 18:52:18,040 - octoprint.events - INFO - Executing a system command
+2020-05-25 18:52:18,051 - octoprint.events - INFO - Executing a system command
+2020-05-25 18:52:18,152 - octoprint.server - INFO - Shutting down...
+2020-05-25 18:52:18,543 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2020-05-25 18:52:18,544 - octoprint.events - INFO - Event loop shut down
+2020-05-25 18:52:18,550 - octoprint.server - INFO - Goodbye!
+2020-05-25 18:52:24,668 - octoprint.startup - INFO - ******************************************************************************
+2020-05-25 18:52:24,670 - octoprint.startup - INFO - Starting OctoPrint 1.3.12
+2020-05-25 18:52:24,680 - octoprint.startup - INFO - ******************************************************************************
+2020-05-25 18:52:25,125 - octoprint.startup - INFO - We don't appear to be online, not fetching plugin blacklist
+2020-05-25 18:52:25,176 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-05-25 18:52:26,257 - octoprint.plugin.core - INFO - Found 15 plugin(s) providing 15 mixin implementations, 23 hook handlers
+2020-05-25 18:52:26,393 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2020-05-25 18:52:26,420 - octoprint.server - INFO - Intermediary server started
+2020-05-25 18:52:26,421 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-05-25 18:52:26,482 - octoprint.plugin.core - INFO - Found 15 plugin(s) providing 15 mixin implementations, 23 hook handlers
+2020-05-25 18:52:26,500 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2020-05-25 18:52:26,743 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2020-05-25 18:52:26,765 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2020-05-25 18:52:27,505 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-05-25 18:52:28,052 - octoprint.util.pip - INFO - Version of pip is 19.3.1
+2020-05-25 18:52:28,053 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-25 18:52:28,054 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-25 18:52:28,057 - octoprint.plugin.core - INFO - Initialized 15 plugin implementation(s)
+2020-05-25 18:52:28,062 - octoprint.plugin.core - INFO - 15 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  Force Login (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Pi Support Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Software Update (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2020-05-25 18:52:28,074 - octoprint.environment - INFO - Detected environment is Python 2.7.16 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1500.0
+|    ram: 1979641856
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 4 Model B Rev 1.1
+|      octopi_version: 0.17.0
+|  python:
+|    pip: 19.3.1
+|    version: 2.7.16
+|    virtualenv: /home/pi/oprint
+2020-05-25 18:52:28,082 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2020-05-25 18:52:28,095 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2020-05-25 18:52:28,489 - octoprint.server - INFO - Shutting down intermediary server...
+2020-05-25 18:52:28,930 - octoprint.server - INFO - Intermediary server shut down
+2020-05-25 18:52:28,932 - octoprint.events - INFO - Processing startup event, this is our first event
+2020-05-25 18:52:28,932 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2020-05-25 18:52:28,933 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2020-05-25 18:52:28,935 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2020-05-25 18:52:28,979 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Detecting serial port"
+2020-05-25 18:52:28,984 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2020-05-25 18:52:28,985 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2020-05-25 18:52:28,994 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on 4B' for _http._tcp
+2020-05-25 18:52:29,001 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on 4B' for _octoprint._tcp
+2020-05-25 18:52:29,014 - octoprint.util.comm - INFO - Changing monitoring state from "Detecting serial port" to "Opening serial port"
+2020-05-25 18:52:29,020 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Detecting baudrate"
+2020-05-25 18:52:29,025 - octoprint.server - INFO - Listening on http://127.0.0.1:5000
+2020-05-25 18:52:29,149 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2020-05-25 18:52:29,534 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2020-05-25 18:52:29,764 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-05-25 18:52:29,765 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-25 18:52:29,765 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-25 18:52:30,026 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-25 18:52:30,030 - octoprint.util.comm - INFO - Changing monitoring state from "Detecting baudrate" to "Operational"
+2020-05-25 18:52:30,036 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-25 18:52:30,347 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-05-25 18:52:32,458 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-25 18:52:32,459 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-25 18:52:32,468 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2020-05-25 18:52:32,562 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://4b.local/'}
+2020-05-25 18:52:35,357 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin V1; Sprinter/grbl mashup for gen6"
+2020-05-25 18:52:37,901 - octoprint.server.preemptive_cache - INFO - ... done in 5.34s
+2020-05-25 18:52:37,901 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://192.168.137.175/'}
+2020-05-25 18:52:39,942 - octoprint.server.preemptive_cache - INFO - ... done in 2.04s
+2020-05-25 18:57:26,902 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.1
+2020-05-25 18:57:26,972 - octoprint.events - INFO - Executing a system command
+2020-05-25 18:57:26,998 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.1
+2020-05-25 18:58:46,562 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.137.250
+2020-05-25 18:58:46,600 - octoprint.events - INFO - Executing a system command
+2020-05-25 18:58:46,682 - octoprint.server.util.flask - INFO - Passively logging in user dummy from ::ffff:192.168.137.250
+2020-05-25 18:59:44,467 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: CE3_Filamentbuffer_v3.gcode, owner: dummy, user: dummy
+2020-05-25 18:59:44,483 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2020-05-25 18:59:44,491 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CE3_Filamentbuffer_v3.gcode, owner: dummy, user: dummy
+2020-05-25 18:59:44,500 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-25 18:59:44,505 - octoprint.events - INFO - Executing a system command
+2020-05-25 18:59:44,541 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2020-05-25 19:07:26,395 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 19:08:06,556 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.250
+2020-05-25 19:08:06,562 - octoprint.events - INFO - Executing a system command
+2020-05-25 19:22:26,396 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 19:35:25,263 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.137.1
+2020-05-25 19:35:25,269 - octoprint.events - INFO - Executing a system command
+2020-05-25 19:37:26,398 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 19:52:26,400 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 20:07:26,401 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 20:22:26,403 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 20:37:26,405 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 20:52:26,407 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 21:07:26,408 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 21:22:26,411 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 21:37:26,413 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 21:52:26,414 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 22:07:26,416 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 22:22:26,418 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 22:37:26,419 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 22:52:26,421 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 23:07:26,423 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 23:22:26,425 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 23:37:26,429 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-25 23:50:45,549 - octoprint.util.comm - INFO - Finished in 17461.071 s.
+2020-05-25 23:50:45,551 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2020-05-25 23:50:45,559 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: CE3_Filamentbuffer_v3.gcode, owner: dummy
+2020-05-25 23:50:45,569 - octoprint.events - INFO - Executing a system command
+2020-05-25 23:50:45,605 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2020-05-25 23:52:26,430 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-26 00:07:26,432 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-26 00:21:31,317 - octoprint.server.util.sockjs - INFO - New connection from client: 2a02:a456:ab5d:101:558d:fb06:f64e:63d7
+2020-05-26 00:21:31,411 - octoprint.events - INFO - Executing a system command
+2020-05-26 00:21:31,436 - octoprint.server.util.flask - INFO - Passively logging in user dummy from 2a02:a456:ab5d:101:558d:fb06:f64e:63d7
+2020-05-26 00:21:31,448 - octoprint.events - WARNING - Command failed with return code 143, enable debug logging on target 'octoprint.events' for details
+2020-05-26 00:21:32,859 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-05-26 00:21:32,903 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2020-05-26 00:21:33,261 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2020-05-26 00:21:33,351 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2020-05-26 00:22:26,435 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-26 00:23:31,140 - octoprint.server.api.system - INFO - Performing command for core:shutdown: sudo shutdown -h now
+2020-05-26 00:23:31,367 - octoprint.server.util.sockjs - INFO - Client connection closed: 2a02:a456:ab5d:101:558d:fb06:f64e:63d7
+2020-05-26 00:23:31,373 - octoprint.events - INFO - Executing a system command
+2020-05-26 00:23:31,520 - octoprint.server - INFO - Shutting down...
+2020-05-26 00:23:32,279 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2020-05-26 00:23:32,282 - octoprint.events - INFO - Event loop shut down
+2020-05-26 00:23:32,538 - octoprint.server - INFO - Goodbye!
+2020-05-26 00:23:37,714 - octoprint.startup - INFO - ******************************************************************************
+2020-05-26 00:23:37,715 - octoprint.startup - INFO - Starting OctoPrint 1.3.12
+2020-05-26 00:23:37,716 - octoprint.startup - INFO - ******************************************************************************
+2020-05-26 00:23:38,109 - octoprint.startup - INFO - We don't appear to be online, not fetching plugin blacklist
+2020-05-26 00:23:38,192 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-05-26 00:23:39,283 - octoprint.plugin.core - INFO - Found 15 plugin(s) providing 15 mixin implementations, 23 hook handlers
+2020-05-26 00:23:39,421 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2020-05-26 00:23:39,448 - octoprint.server - INFO - Intermediary server started
+2020-05-26 00:23:39,448 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-05-26 00:23:39,510 - octoprint.plugin.core - INFO - Found 15 plugin(s) providing 15 mixin implementations, 23 hook handlers
+2020-05-26 00:23:39,529 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2020-05-26 00:23:39,769 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2020-05-26 00:23:39,791 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2020-05-26 00:23:40,485 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-05-26 00:23:41,034 - octoprint.util.pip - INFO - Version of pip is 19.3.1
+2020-05-26 00:23:41,035 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-26 00:23:41,036 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-26 00:23:41,039 - octoprint.plugin.core - INFO - Initialized 15 plugin implementation(s)
+2020-05-26 00:23:41,045 - octoprint.plugin.core - INFO - 15 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  Force Login (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Pi Support Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Software Update (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2020-05-26 00:23:41,057 - octoprint.environment - INFO - Detected environment is Python 2.7.16 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1500.0
+|    ram: 1979641856
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 4 Model B Rev 1.1
+|      octopi_version: 0.17.0
+|  python:
+|    pip: 19.3.1
+|    version: 2.7.16
+|    virtualenv: /home/pi/oprint
+2020-05-26 00:23:41,064 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2020-05-26 00:23:41,077 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2020-05-26 00:23:41,486 - octoprint.server - INFO - Shutting down intermediary server...
+2020-05-26 00:23:41,975 - octoprint.server - INFO - Intermediary server shut down
+2020-05-26 00:23:41,979 - octoprint.events - INFO - Processing startup event, this is our first event
+2020-05-26 00:23:41,981 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2020-05-26 00:23:41,984 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2020-05-26 00:23:41,988 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2020-05-26 00:23:42,083 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Detecting serial port"
+2020-05-26 00:23:42,086 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2020-05-26 00:23:42,088 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2020-05-26 00:23:42,100 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on 4B' for _http._tcp
+2020-05-26 00:23:42,107 - octoprint.util.comm - INFO - Changing monitoring state from "Detecting serial port" to "Opening serial port"
+2020-05-26 00:23:42,108 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on 4B' for _octoprint._tcp
+2020-05-26 00:23:42,110 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Detecting baudrate"
+2020-05-26 00:23:42,131 - octoprint.server - INFO - Listening on http://127.0.0.1:5000
+2020-05-26 00:23:42,206 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2020-05-26 00:23:42,700 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2020-05-26 00:23:42,842 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-05-26 00:23:42,842 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-26 00:23:42,843 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-26 00:23:43,117 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-26 00:23:43,121 - octoprint.util.comm - INFO - Changing monitoring state from "Detecting baudrate" to "Operational"
+2020-05-26 00:23:43,127 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-26 00:23:43,408 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-05-26 00:23:45,582 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-26 00:23:45,582 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-26 00:23:45,596 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2020-05-26 00:23:45,684 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://4b.local/'}
+2020-05-26 00:23:48,444 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin V1; Sprinter/grbl mashup for gen6"
+2020-05-26 00:23:51,068 - octoprint.server.preemptive_cache - INFO - ... done in 5.38s
+2020-05-26 00:23:51,069 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://192.168.137.175/'}
+2020-05-26 00:23:53,103 - octoprint.server.preemptive_cache - INFO - ... done in 2.03s
